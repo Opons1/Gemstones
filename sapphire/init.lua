@@ -86,11 +86,18 @@ minetest.register_tool("gs_sapphire:sapphire_shovel", {
 	groups = {shovel = 1}
 })
 
+if core.get_modpath("toolranks") then
+	toolranks.add_tool("gs_sapphire:sapphire_sword")
+	toolranks.add_tool("gs_sapphire:sapphire_pickaxe")
+	toolranks.add_tool("gs_sapphire:sapphire_axe")
+	toolranks.add_tool("gs_sapphire:sapphire_shovel")
+end
+
 -----------------
 -- Mapgen --
 -----------------
 
--- Ruby Ore
+-- Sapphire
 
       minetest.register_ore({
 	          ore_type       = "scatter",

@@ -86,6 +86,13 @@ minetest.register_tool("gs_emerald:emerald_shovel", {
 	groups = {shovel = 1}
 })
 
+if core.get_modpath("toolranks") then
+	toolranks.add_tool("gs_emerald:emerald_sword")
+	toolranks.add_tool("gs_emerald:emerald_pickaxe")
+	toolranks.add_tool("gs_emerald:emerald_axe")
+	toolranks.add_tool("gs_emerald:emerald_shovel")
+end
+
 -----------------
 -- Mapgen --
 -----------------

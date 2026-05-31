@@ -86,6 +86,13 @@ minetest.register_tool("gs_ruby:ruby_shovel", {
 	groups = {shovel = 1}
 })
 
+if core.get_modpath("toolranks") then
+	toolranks.add_tool("gs_ruby:ruby_sword")
+	toolranks.add_tool("gs_ruby:ruby_pickaxe")
+	toolranks.add_tool("gs_ruby:ruby_axe")
+	toolranks.add_tool("gs_ruby:ruby_shovel")
+end
+
 -----------------
 -- Mapgen --
 -----------------

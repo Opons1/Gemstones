@@ -18,7 +18,7 @@ minetest.register_node("gs_amethyst:amethyst_ore", {
 })
 
 minetest.register_craftitem("gs_amethyst:amethyst_ingot", {
-	description = ("Amethyst Ingot"),
+	description = ("Amethyst"),
 	inventory_image = "gs_amethyst.png",
 })
 
@@ -86,6 +86,12 @@ minetest.register_tool("gs_amethyst:amethyst_shovel", {
 	groups = {shovel = 1}
 })
 
+if core.get_modpath("toolranks") then
+	toolranks.add_tool("gs_amethyst:amethyst_sword")
+	toolranks.add_tool("gs_amethyst:amethyst_pickaxe")
+	toolranks.add_tool("gs_amethyst:amethyst_axe")
+	toolranks.add_tool("gs_amethyst:amethyst_shovel")
+end
 -----------------
 -- Mapgen --
 -----------------
