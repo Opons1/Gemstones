@@ -184,7 +184,7 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
-	output = "gs_sapphire:sapphire",
+	output = "gs_sapphire:sapphire 9",
 	recipe = {
         {"gs_sapphire:sapphire_block"}
 	}

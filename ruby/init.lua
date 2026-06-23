@@ -184,7 +184,7 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
-	output = "gs_ruby:ruby",
+	output = "gs_ruby:ruby 9",
 	recipe = {
         {"gs_ruby:ruby_block"}
 	}
