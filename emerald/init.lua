@@ -104,32 +104,10 @@ end
 	          ore            = "gs_emerald:emerald_ore",
 	          wherein        = "default:stone",
 	          clust_scarcity = 15 * 15 * 15,
-	          clust_num_ores = 4,
+	          clust_num_ores = 6,
 	          clust_size     = 3,
 	          y_max          = -256,
 	          y_min          = -31000,
-	   })
-	   
-	  minetest.register_ore({
-		      ore_type       = "scatter",
-		      ore            = "gs_emerald:emerald_ore",
-		      wherein        = "default:stone",
-		      clust_scarcity = 17 * 17 * 17,
-		      clust_num_ores = 4,
-		      clust_size     = 3,
-		      y_max          = -128,
-		      y_min          = -255,
-	   })
-
-	  minetest.register_ore({
-		       ore_type       = "scatter",
-		       ore            = "gs_emerald:emerald_ore",
-		       wherein        = "default:stone",
-		       clust_scarcity = 15 * 15 * 15,
-		       clust_num_ores = 4,
-		       clust_size     = 3,
-		       y_max          = -256,
-		       y_min          = -31000,
 	   })
 
 -------------
